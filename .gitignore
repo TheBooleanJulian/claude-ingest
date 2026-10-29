@@ -1,0 +1,7 @@
+out/
+_ingest/
+*.zip
+conversations.json
+__pycache__/
+*.pyc
+.env
