@@ -23,7 +23,7 @@ CONV = {
         tool("artifacts", id="cal_ui", type="text/html", command="create", content="<p>one</p>"),
         tool("artifacts", id="cal_ui", command="update", old_str="one", new_str="two"),
         tool("artifacts", id="cfg", type="application/vnd.ant.code", language="python",
-             command="create", content="KEY = 'AIzaSyA-1234567890123456789012345678901'\n"),
+             command="create", content="KEY = '" + "AIza" + "x" * 35 + "'\n"),
         tool("bash_tool", command="ls"),
     ]}],
 }
